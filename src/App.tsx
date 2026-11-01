@@ -316,15 +316,6 @@ const [complaintStats, setComplaintStats] = useState({
     ));
   };
 
-  const pageDescription: Record<Page, string> = {
-    Dashboard: 'An overview of your business at a glance.',
-    'My Tasks': 'Organise, manage and track your work.',
-    Customers: 'Your customer relationships, all in one place.',
-    Complaints: 'Keep track of customer concerns and resolutions.',
-    'AI Assistant': 'Your intelligent operations companion.',
-    Settings: 'Manage your workspace preferences.',
-    'My Profile': 'Your personal workspace information.',
-  };
 
   return (
     <div className="edith-shell">
